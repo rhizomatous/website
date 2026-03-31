@@ -1,0 +1,44 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: var(--basalt-sizing-168);
+  padding: var(--basalt-sizing-16) var(--basalt-sizing-6);
+
+  @mixin desktop {
+    padding: var(--basalt-sizing-20) var(--basalt-sizing-10);
+  }
+}
+
+.wordmark {
+  @mixin font-serif;
+
+  color: var(--basalt-color-text-default);
+  font-size: var(--font-size-wordmark);
+  font-style: italic;
+  font-weight: var(--basalt-font-weight-normal);
+  line-height: var(--basalt-line-height-heading);
+  margin-bottom: var(--basalt-sizing-12);
+
+  @mixin desktop {
+    margin-bottom: var(--basalt-sizing-16);
+  }
+}
+
+.manifesto {
+  display: flex;
+  flex-direction: column;
+  gap: var(--basalt-sizing-6);
+  margin-bottom: var(--basalt-sizing-16);
+
+  @mixin desktop {
+    gap: var(--basalt-sizing-8);
+    margin-bottom: var(--basalt-sizing-24);
+  }
+}
+
+.contact {
+  display: flex;
+  gap: var(--basalt-sizing-4);
+}
