@@ -64,10 +64,5 @@ export default {
     "length-zero-no-unit": true,
     "declaration-block-no-duplicate-custom-properties": true,
   },
-  ignoreFiles: [
-    "**/node_modules/**",
-    "**/.next/**",
-    "**/out/**",
-    "**/coverage/**",
-  ],
-}
+  ignoreFiles: ["**/node_modules/**", "**/.next/**", "**/out/**", "**/coverage/**"],
+};
