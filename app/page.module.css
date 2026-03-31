@@ -12,13 +12,8 @@
 }
 
 .wordmark {
-  @mixin font-serif;
-
-  color: var(--basalt-color-text-default);
   font-size: var(--font-size-wordmark);
   font-style: italic;
-  font-weight: var(--basalt-font-weight-normal);
-  line-height: var(--basalt-line-height-heading);
   margin-bottom: var(--basalt-sizing-12);
 
   @mixin desktop {

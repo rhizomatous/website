@@ -43,7 +43,7 @@ export default function Home() {
       <Text as="div" font="sans" size="small" color="muted" className={styles.contact}>
         <Link href="mailto:hello@example.com">hello@example.com</Link>
         <span aria-hidden="true">&middot;</span>
-        <Link href="https://github.com/atelier-rhizome">GitHub</Link>
+        <Link href="https://github.com/atelier-rhizome" target="_blank" rel="noopener noreferrer">GitHub</Link>
       </Text>
     </main>
   )
