@@ -1,4 +1,4 @@
-import { join } from "path"
+import { join } from "path";
 
 export default {
   plugins: {
@@ -6,4 +6,4 @@ export default {
       mixinsFiles: [join(import.meta.dirname, "css/mixins.css")],
     },
   },
-}
+};

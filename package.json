@@ -1,7 +1,7 @@
 {
   "name": "atelier-rhizome",
-  "description": "Atelier Rhizome — democratizing AI",
   "private": true,
+  "description": "Atelier Rhizome — democratizing AI",
   "license": "MIT",
   "scripts": {
     "dev": "bun --bun next dev",
