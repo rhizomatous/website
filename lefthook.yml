@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint-js:
+      glob: "*.{js,mjs,ts,tsx,jsx}"
+      run: bunx oxlint {staged_files}
+    lint-css:
+      glob: "*.css"
+      run: bunx stylelint {staged_files}
+    format-check:
+      run: bunx oxfmt --check .
