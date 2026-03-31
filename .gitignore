@@ -4,3 +4,4 @@ out/
 *.tsbuildinfo
 .superpowers/
 docs/superpowers/
+coverage/

@@ -6,7 +6,15 @@
   "scripts": {
     "dev": "bun --bun next dev",
     "build": "bun --bun next build",
-    "start": "bun --bun next start"
+    "start": "bun --bun next start",
+    "lint": "bun run lint:js && bun run lint:css",
+    "lint:js": "oxlint .",
+    "lint:css": "stylelint \"**/*.css\"",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -15,9 +23,19 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/node": "^18.11.9",
     "@types/react": "^19.0.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "jsdom": "^29.0.1",
+    "lefthook": "^2.1.4",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
     "postcss-mixins": "^12.1.2",
-    "typescript": "^5.3.3"
+    "stylelint": "^17.6.0",
+    "stylelint-config-standard": "^40.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^4.1.2"
   }
 }
