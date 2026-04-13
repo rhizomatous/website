@@ -1,3 +1,5 @@
+/** layers.css must load first to establish CSS cascade layer order */
+import "./layers.css";
 import "./globals.css";
 
 import type { Metadata, Viewport } from "next";

@@ -94,7 +94,7 @@
   @mixin desktop {
     :root {
       --basalt-font-size-small: var(--basalt-font-size-200);
-      --basalt-font-size-body: var(--basalt-font-size-500);
+      --basalt-font-size-body: var(--basalt-font-size-300);
       --basalt-font-size-heading1: var(--basalt-font-size-700);
       --basalt-font-size-heading2: var(--basalt-font-size-600);
       --basalt-font-size-heading3: var(--basalt-font-size-500);

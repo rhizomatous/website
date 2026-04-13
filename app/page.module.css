@@ -1,19 +1,53 @@
 .page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
-  max-width: var(--basalt-sizing-168);
+
+  @mixin desktop {
+    flex-direction: row;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: var(--basalt-sizing-16) var(--basalt-sizing-6);
 
   @mixin desktop {
-    padding: var(--basalt-sizing-20) var(--basalt-sizing-10);
+    flex: 0 0 60%;
+    padding: var(--basalt-sizing-20) var(--basalt-sizing-10) var(--basalt-sizing-20)
+      var(--basalt-sizing-16);
+  }
+}
+
+.image {
+  display: none;
+
+  @mixin desktop {
+    display: block;
+    flex: 0 0 40%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  & picture {
+    position: absolute;
+    inset: 0;
+  }
+
+  & img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
 .wordmark {
   font-size: var(--font-size-wordmark);
   font-style: italic;
+  max-width: var(--basalt-sizing-168);
   margin-bottom: var(--basalt-sizing-12);
 
   @mixin desktop {
@@ -24,6 +58,7 @@
 .manifesto {
   display: flex;
   flex-direction: column;
+  max-width: var(--basalt-sizing-168);
   gap: var(--basalt-sizing-6);
   margin-bottom: var(--basalt-sizing-16);
 
@@ -35,5 +70,6 @@
 
 .contact {
   display: flex;
+  max-width: var(--basalt-sizing-168);
   gap: var(--basalt-sizing-4);
 }
