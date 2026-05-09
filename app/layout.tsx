@@ -11,7 +11,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "atelier rhizome",
-  description: "democratizing AI for the common benefit of man and machine.",
+  description: "let's democratize thinking machines.",
   icons: {
     icon: [
       { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },

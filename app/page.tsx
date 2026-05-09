@@ -28,9 +28,7 @@ export default function Home() {
             world.
           </Text>
 
-          <Text>
-            hand in tensor, let's strive toward the common benefit of people and machines.
-          </Text>
+          <Text>let's democratize thinking machines.</Text>
         </div>
 
         <Text as="div" font="sans" size="small" color="muted" className={styles.contact}>
