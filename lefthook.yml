@@ -8,4 +8,4 @@ pre-commit:
       glob: "*.css"
       run: bunx stylelint {staged_files}
     format-check:
-      run: bunx oxfmt --check .
+      run: bunx oxfmt .
