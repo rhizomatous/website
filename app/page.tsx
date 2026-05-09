@@ -8,33 +8,27 @@ export default function Home() {
     <main className={styles.page}>
       <div className={styles.content}>
         <Heading level="1" className={styles.wordmark}>
-          Atelier Rhizome
+          atelier rhizome
         </Heading>
 
         <div className={styles.manifesto}>
           <Text>
-            We believe the transformative power of artificial intelligence should belong to everyone
-            — not locked behind proprietary walls, not concentrated in the hands of a few, but
-            shared freely as a common inheritance of our species. Atelier Rhizome exists to make
-            that belief real.
+            the transformative power of artificial intelligence belongs to everyone. not locked
+            behind proprietary walls, not concentrated in the hands of a few, but shared freely as
+            the common inheritance of our species.
           </Text>
 
           <Text>
-            Our work is rooted in the conviction that openness and understanding go hand in hand. We
-            champion open models that anyone can study, adapt, and build upon. We pursue
-            interpretability because intelligence we cannot understand is intelligence we cannot
-            trust. We develop local models that run on the hardware people already own, free from
-            the tether of distant servers. And we relentlessly optimize for efficiency, because a
-            model that demands a datacenter to run is a model that excludes most of the world.
+            our work rests on a conviction: the common benefit cannot be achieved without openness &
+            self-determination. we champion open models that anyone can study, adapt, and build
+            upon; weights laid bare for inspection rather than sealed behind an API. we pursue
+            interpretability because understood intelligence can become public intelligence:
+            critiqued in public, improved in public, held in public. we focus on models that run
+            locally on the hardware people already own. a system that demands a datacenter is a
+            system that excludes most of the world.
           </Text>
 
-          <Text>
-            This is not work that any one person or institution can do alone. Like the rhizome —
-            that tangle of roots with no center and no hierarchy — we grow by connecting. Every
-            contribution, from every corner of the world, strengthens the whole. The goal is simple
-            and vast: a future where humans and machines learn from each other, work together, and
-            share in the benefit.
-          </Text>
+          <Text>hand in tensor, let's strive toward the common good of people and machines.</Text>
         </div>
 
         <Text as="div" font="sans" size="small" color="muted" className={styles.contact}>
