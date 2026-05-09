@@ -7,5 +7,7 @@ pre-commit:
     lint-css:
       glob: "*.css"
       run: bunx stylelint {staged_files}
-    format-check:
-      run: bunx oxfmt .
+    format:
+      glob: "*.{js,mjs,ts,tsx,jsx}"
+      run: bunx oxfmt {staged_files}
+      stage_fixed: true
