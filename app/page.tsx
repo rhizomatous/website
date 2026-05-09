@@ -19,22 +19,28 @@ export default function Home() {
           </Text>
 
           <Text>
-            our work rests on a conviction: the common benefit cannot be achieved without openness &
+            our work rests on a conviction: that common good cannot be achieved without openness &
             self-determination. we champion open models that anyone can study, adapt, and build
-            upon; weights laid bare for inspection rather than sealed behind an API. we pursue
-            interpretability because understood intelligence can become public intelligence:
-            critiqued in public, improved in public, held in public. we focus on models that run
-            locally on the hardware people already own. a system that demands a datacenter is a
-            system that excludes most of the world.
+            upon. weights you can hold, run, fork, and remix. we pursue interpretability because
+            understood intelligence can become public intelligence. critiqued in public, improved in
+            public, held in public. we focus on models that run locally on the hardware people
+            already own. a system that demands a datacenter is a system that excludes most of the
+            world.
           </Text>
 
-          <Text>hand in tensor, let's strive toward the common good of people and machines.</Text>
+          <Text>
+            hand in tensor, let's strive toward the common benefit of people and machines.
+          </Text>
         </div>
 
         <Text as="div" font="sans" size="small" color="muted" className={styles.contact}>
-          <Link href="mailto:hello@example.com">hello@example.com</Link>
+          <Link href="mailto:hey@vivsha.ws">contact</Link>
           <span aria-hidden="true">&middot;</span>
-          <Link href="https://github.com/atelier-rhizome" target="_blank" rel="noopener noreferrer">
+          <Link href="https://huggingface.co/rhizomatous" target="_blank" rel="noopener noreferrer">
+            HuggingFace
+          </Link>
+          <span aria-hidden="true">&middot;</span>
+          <Link href="https://github.com/rhizomatous" target="_blank" rel="noopener noreferrer">
             GitHub
           </Link>
         </Text>
