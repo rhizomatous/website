@@ -10,9 +10,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Atelier Rhizome",
-  description:
-    "Democratizing AI — open models, interpretability, local models, efficiency optimization. For the common benefit of man and machine.",
+  title: "atelier rhizome",
+  description: "democratizing AI for the common benefit of man and machine.",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
