@@ -55,7 +55,7 @@
   }
 }
 
-.manifesto {
+.blurb {
   display: flex;
   flex-direction: column;
   max-width: var(--basalt-sizing-168);
