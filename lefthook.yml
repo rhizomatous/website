@@ -1,13 +1,14 @@
 pre-commit:
   parallel: true
   commands:
-    lint-js:
+    js:
       glob: "*.{js,mjs,ts,tsx,jsx}"
-      run: bunx oxlint {staged_files}
-    lint-css:
-      glob: "*.css"
-      run: bunx stylelint {staged_files}
-    format:
-      glob: "*.{js,mjs,ts,tsx,jsx}"
-      run: bunx oxfmt {staged_files}
+      run: bunx oxlint --fix {staged_files} && bunx oxfmt {staged_files}
       stage_fixed: true
+    css:
+      glob: "*.css"
+      run: bunx stylelint --fix {staged_files}
+      stage_fixed: true
+    typecheck:
+      glob: "*.{ts,tsx}"
+      run: bun run typecheck
