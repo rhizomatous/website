@@ -5,3 +5,6 @@ out/
 .superpowers/
 docs/superpowers/
 coverage/
+result
+result-*
+.direnv/
