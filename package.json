@@ -10,6 +10,7 @@
     "lint": "bun run lint:js && bun run lint:css",
     "lint:js": "oxlint .",
     "lint:css": "stylelint \"**/*.css\"",
+    "typecheck": "tsc --noEmit",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
     "test": "vitest run",
