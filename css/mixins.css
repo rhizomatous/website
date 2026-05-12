@@ -1,13 +1,13 @@
 /* ===== breakpoints ===== */
 
 @define-mixin tablet {
-  @media (min-width: 541px) {
+  @media (width >= 541px) {
     @mixin-content;
   }
 }
 
 @define-mixin desktop {
-  @media (min-width: 736px) {
+  @media (width >= 736px) {
     @mixin-content;
   }
 }
