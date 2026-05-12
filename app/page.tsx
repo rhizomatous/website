@@ -1,6 +1,7 @@
 import { Heading } from "./_components/Heading/Heading";
 import { Link } from "./_components/Link/Link";
 import { Text } from "./_components/Text/Text";
+
 import styles from "./page.module.css";
 
 export default function Home() {
