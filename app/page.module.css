@@ -25,9 +25,9 @@
   display: none;
 
   @mixin desktop {
+    position: relative;
     display: block;
     flex: 0 0 40%;
-    position: relative;
     overflow: hidden;
   }
 
@@ -45,10 +45,10 @@
 }
 
 .wordmark {
-  font-size: var(--font-size-wordmark);
-  font-style: italic;
   max-width: var(--basalt-sizing-168);
   margin-bottom: var(--basalt-sizing-12);
+  font-size: var(--font-size-wordmark);
+  font-style: italic;
 
   @mixin desktop {
     margin-bottom: var(--basalt-sizing-16);
@@ -58,8 +58,8 @@
 .blurb {
   display: flex;
   flex-direction: column;
-  max-width: var(--basalt-sizing-168);
   gap: var(--basalt-sizing-6);
+  max-width: var(--basalt-sizing-168);
   margin-bottom: var(--basalt-sizing-16);
 
   @mixin desktop {
@@ -70,6 +70,6 @@
 
 .contact {
   display: flex;
-  max-width: var(--basalt-sizing-168);
   gap: var(--basalt-sizing-4);
+  max-width: var(--basalt-sizing-168);
 }

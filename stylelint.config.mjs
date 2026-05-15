@@ -1,6 +1,6 @@
 /** @type {import('stylelint').Config} */
 export default {
-  extends: ["stylelint-config-standard"],
+  extends: ["stylelint-config-standard", "stylelint-config-recess-order"],
   rules: {
     // allow PostCSS at-rules (@mixin, @define-mixin, @mixin-content)
     "at-rule-no-unknown": [

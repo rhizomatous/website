@@ -1,9 +1,9 @@
 @layer basalt-styles {
   .heading {
     @mixin font-serif;
+    font-weight: var(--basalt-font-weight-normal);
 
     color: var(--basalt-color-text-default);
-    font-weight: var(--basalt-font-weight-normal);
     word-break: keep-all;
   }
 
