@@ -3,16 +3,16 @@
     /* ===== colors ===== */
 
     /* base colors */
-    --basalt-color-base-50: #fafafb;
-    --basalt-color-base-100: #f5f5f4;
-    --basalt-color-base-200: #c7ccd1;
-    --basalt-color-base-300: #b7bdb4;
-    --basalt-color-base-400: #73737a;
-    --basalt-color-base-500: #484a53;
-    --basalt-color-base-550: #28282b;
-    --basalt-color-base-600: #1d2126;
-    --basalt-color-base-700: #111214;
-    --basalt-color-base-800: #08080a;
+    --basalt-color-base-100: #fafafb;
+    --basalt-color-base-200: #f5f5f4;
+    --basalt-color-base-300: #c7ccd1;
+    --basalt-color-base-400: #b7bdb4;
+    --basalt-color-base-500: #73737a;
+    --basalt-color-base-600: #484a53;
+    --basalt-color-base-700: #28282b;
+    --basalt-color-base-800: #1d2126;
+    --basalt-color-base-900: #111214;
+    --basalt-color-base-1000: #08080a;
 
     /* ===== typography ===== */
 
@@ -127,23 +127,23 @@
 
   /* semantic colors & theming */
   @define-mixin light-theme {
-    --basalt-color-accent-default: var(--basalt-color-base-550);
-    --basalt-color-background-default: var(--basalt-color-base-100);
-    --basalt-color-background-secondary: var(--basalt-color-base-50);
-    --basalt-color-border-default: var(--basalt-color-base-800);
-    --basalt-color-border-muted: var(--basalt-color-base-400);
-    --basalt-color-text-default: var(--basalt-color-base-800);
-    --basalt-color-text-muted: var(--basalt-color-base-400);
+    --basalt-color-accent-default: var(--basalt-color-base-700);
+    --basalt-color-background-default: var(--basalt-color-base-200);
+    --basalt-color-background-secondary: var(--basalt-color-base-100);
+    --basalt-color-border-default: var(--basalt-color-base-1000);
+    --basalt-color-border-muted: var(--basalt-color-base-500);
+    --basalt-color-text-default: var(--basalt-color-base-1000);
+    --basalt-color-text-muted: var(--basalt-color-base-500);
   }
 
   @define-mixin dark-theme {
-    --basalt-color-accent-default: var(--basalt-color-base-300);
-    --basalt-color-background-default: var(--basalt-color-base-700);
-    --basalt-color-background-secondary: var(--basalt-color-base-600);
-    --basalt-color-border-default: var(--basalt-color-base-200);
-    --basalt-color-border-muted: var(--basalt-color-base-400);
-    --basalt-color-text-default: var(--basalt-color-base-200);
-    --basalt-color-text-muted: var(--basalt-color-base-400);
+    --basalt-color-accent-default: var(--basalt-color-base-400);
+    --basalt-color-background-default: var(--basalt-color-base-900);
+    --basalt-color-background-secondary: var(--basalt-color-base-800);
+    --basalt-color-border-default: var(--basalt-color-base-300);
+    --basalt-color-border-muted: var(--basalt-color-base-500);
+    --basalt-color-text-default: var(--basalt-color-base-300);
+    --basalt-color-text-muted: var(--basalt-color-base-500);
   }
 
   html {
